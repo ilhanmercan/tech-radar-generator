@@ -75,10 +75,10 @@ function plotErrorMessage (exception) {
     .append('div')
     .attr('class', 'input-sheet')
 
-  var bannerText = '<div><h1>Build your own radar</h1><p>Once you\'ve <a href ="https://www.thoughtworks.com/radar/byor">created your Radar</a>, you can use this service' +
-    ' to generate an <br />interactive version of your Technology Radar. Not sure how? <a href ="https://www.thoughtworks.com/radar/how-to-byor">Read this first.</a></p></div>'
+  // var bannerText = '<div><h1>Build your own radar</h1><p>Once you\'ve <a href ="https://www.thoughtworks.com/radar/byor">created your Radar</a>, you can use this service' +
+  //   ' to generate an <br />interactive version of your Technology Radar. Not sure how? <a href ="https://www.thoughtworks.com/radar/how-to-byor">Read this first.</a></p></div>'
 
-  plotBanner(content, bannerText)
+  plotBanner(content, '')
 
   d3.selectAll('.loading').remove()
   const message = 'Oops! It seems like there are some problems with loading your data. '

@@ -8,6 +8,17 @@ A library for creating a [ThoughtWorks Tech Radar][radar] as a static site. This
 [radar]: https://www.thoughtworks.com/radar
 [byor]: https://github.com/thoughtworks/build-your-own-radar
 
+
+## TL;DR
+
+Fastest way to create a new version of Tech-radar is to use tech-radar-generator command. After updating your tech-radar json file on `tech-radar` folder, you can run below command.
+
+```bash
+> bin/tech-radar-generator tech-radar/v0_1.json ./dist
+```
+
+This will create all static files that you need to host on `dist` folder.
+
 ## Overview
 
 A tech radar is an app for visualising trends within an area of software development. They reflect the opinions and decisions of the creators and curators of the radar, and by their nature are highly subjective. They are generally used to reflect the technology decisions and future technical directions within a company, team, or project. A more in-depth discussion of why you might want to build a Tech Radar, and the design decisions for the original ThoughtWorks tech radar, are given [here][byor-why].
